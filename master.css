@@ -5,6 +5,7 @@ html, body {
 }
 
 /* index.html styling below */
+
 .name-title {
     height: 70%;
     width: 70%;
@@ -43,6 +44,7 @@ a.index-a:hover, li.index-li:hover {
 }
 
 /* about.html styling below*/
+
 .background {
     width: 100%;
     height: 100%;
@@ -103,8 +105,9 @@ a.index-a:hover, li.index-li:hover {
     right: 0;
     margin 0;
     background: rgba(255,255,255,0.8);
-    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.8) 5%);
-    text-align: center;
+    /* fade content background */
+    /* background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.8) 5%); */
+    /*text-align: center;*/
     }
 
 .introduction {
@@ -130,26 +133,43 @@ a.index-a:hover, li.index-li:hover {
 
 .profile {
     height: 48%;
-    margin: 0 auto;
-    position: relative;
-    bottom: 290px;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* projects.html styling below */
-.project-introduction {
+
+.page-title {
     font-size: 16px;
-    position: relative;
     text-align: center;
-    top: 300px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa {
+    font-size: 70px;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+
+.fa:hover {
+    transform: scale(1.1);
 }
 
 .fa-github {
-    margin-top: 10px;
-    font-size: 70px;
-    color: black;
-    text-align: center:
+    margin-top: 120px;
 }
 
-.fa-github:hover {
-    transform: scale(1.1);
+/* contact.html styling below */
+
+.icons {
+    letter-spacing: 5px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

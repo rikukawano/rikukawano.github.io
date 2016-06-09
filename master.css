@@ -82,13 +82,16 @@ a.index-a:hover, li.index-li:hover {
     text-decoration: none;
 }
 
-a.about-a:link, a.about-a:visited {
+.about-a:link, .about-a:visited {
     text-decoration: none;
     color: white;
 }
 
-a.about-a:hover, li.about-li:hover {
+.about-li:hover {
     background-color: white;
+}
+
+.about-li:hover .about-a {
     color: black;
 }
 

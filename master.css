@@ -100,8 +100,9 @@ a.about-a:hover, li.about-li:hover {
     right: 0;
     margin 0;
     background: rgba(255,255,255,0.8);
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.8) 5%);
     text-align: center;
-}
+    }
 
 .introduction {
     width: 500px;

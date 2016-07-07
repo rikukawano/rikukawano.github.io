@@ -247,3 +247,30 @@ a.project-buttons:hover {
 .fa-github-square:hover {
     color: #6e5494;
 }
+
+@media only screen and (max-width: 950px) {
+    .name {
+        height: 80%;
+        width: 80%;
+    }
+    
+    .index-li {
+        width: 24%;
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .name {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .index-li {
+        width: 90%;
+        font-size: 12vw;
+        display: list-item;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+}
